@@ -1,0 +1,423 @@
+header ul li a {
+  font-family: "VarelaRound-Regular";
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  display: block;
+}
+header ul li a:hover {
+  color: #bedd4c;
+}
+
+footer {
+  background-color: #636a6a;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to top, black, white);
+}
+
+@font-face {
+  font-family: "VarelaRound-Regular";
+  src: url("../../fonts/VarelaRound-Regular.ttf");
+  /* Al cargar el sitio, se muestra con fuentes por default, y cuando termina 
+  de cargar todo, ahi muestra la fuente que elegimos */
+  font-display: swap;
+}
+body {
+  padding-top: 128px;
+}
+
+.wspp-fixed {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  border-radius: 32px;
+  z-index: 100;
+}
+
+.list-icons ul {
+  list-style: none;
+  align-items: center;
+}
+.list-icons ul li {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.icon-tel img {
+  background-image: url("../../images/logos/telephone.png");
+  width: 20px;
+  height: 20px;
+  background-size: contain;
+  margin-right: 20px;
+}
+
+.icon-cel img {
+  background-image: url("../../images/logos/mobile-phone.png");
+  width: 20px;
+  height: 20px;
+  background-size: contain;
+  margin-right: 20px;
+}
+
+.icon-email img {
+  background-image: url("../../images/logos/envelope.png");
+  width: 20px;
+  height: 20px;
+  background-size: contain;
+  margin-right: 20px;
+}
+
+.icon-location img {
+  background-image: url("../../images/logos/pin.png");
+  width: 20px;
+  height: 20px;
+  background-size: contain;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  font-family: "VarelaRound-Regular";
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  display: block;
+}
+nav ul li a:hover {
+  color: #bedd4c;
+}
+
+.filter-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.filter-list ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+}
+.filter-list ul li {
+  list-style: none;
+  margin: 8px;
+}
+.filter-list ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.grid-proyectos {
+  display: grid;
+  grid-template-columns: repeat(4, 300px);
+  grid-template-rows: repeat(3, 200px);
+  column-gap: 5px;
+  row-gap: 5px;
+  justify-content: center;
+}
+
+.a2 {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+.a2:hover ul {
+  display: flex;
+  flex-direction: column;
+}
+.a2:hover img {
+  opacity: 0.3;
+  transform: scale(0.7);
+}
+.a2 ul {
+  position: absolute;
+  top: 42%;
+  left: 27%;
+  font-family: "VarelaRound-Regular";
+  font-size: 17px;
+  display: none;
+  list-style: none;
+}
+.a2 img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  opacity: 1;
+}
+
+.estudio-banner {
+  text-align: center;
+}
+
+.estudio-descript {
+  text-align: center;
+}
+.estudio-descript h1 {
+  margin-top: 50px;
+}
+.estudio-descript p {
+  margin-top: 30px;
+  line-height: 20px;
+}
+
+.team-banner {
+  text-align: center;
+}
+.team-banner img {
+  width: 1000px;
+  height: 500px;
+  object-fit: cover;
+}
+
+.style-pres {
+  display: flex;
+  align-items: center;
+}
+
+.team-descript {
+  width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.team-descript img {
+  width: 100px;
+  height: 200px;
+  object-fit: cover;
+  margin-top: 50px;
+}
+.team-descript ul {
+  margin-top: 50px;
+  margin-left: 25px;
+  list-style: none;
+}
+
+.style-pres2 {
+  display: flex;
+  align-items: center;
+}
+.style-pres2 img {
+  width: 500px;
+  height: 376px;
+  object-fit: cover;
+}
+.style-pres2 h3 {
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  line-height: 30px;
+  margin-left: 20px;
+  width: 700px;
+  text-align: center;
+}
+.style-pres2 p {
+  font-size: 15px;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+.services-style {
+  text-align: center;
+}
+.services-style p {
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  line-height: 30px;
+  margin-left: 20px;
+  width: 700px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.services-style iframe {
+  margin-bottom: 100px;
+  margin-top: 30px;
+  width: 700px;
+  height: 350px;
+}
+
+.error404 {
+  margin: 0;
+  padding: 0;
+}
+.error404 h1 {
+  text-align: center;
+  font-size: 100px;
+  margin: 0;
+  padding: 0;
+}
+.error404 h2 {
+  text-align: center;
+}
+
+.img-container {
+  display: flex;
+}
+.img-container img {
+  position: relative;
+  left: 35%;
+}
+
+.link-container {
+  display: flex;
+  justify-content: center;
+}
+.link-container p {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+.link-container ul {
+  list-style: none;
+}
+.link-container ul li {
+  border: 0.5px solid black;
+  background-color: grey;
+  text-align: center;
+  padding: 1px 10px;
+}
+.link-container ul li:hover {
+  background-color: yellow;
+}
+.link-container ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .grid-proyectos {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    justify-content: center;
+    width: 100%;
+  }
+
+  .a2 img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .filter-list ul {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .grid-proyectos {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    justify-content: center;
+    width: 100%;
+  }
+
+  .a2 img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .filter-list ul {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .grid-proyectos {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    justify-content: center;
+    width: 100%;
+  }
+
+  .a2 img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .filter-list ul {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 320px) {
+  .grid-proyectos {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    justify-content: center;
+    width: 100%;
+  }
+
+  .a2 img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .filter-list ul {
+    flex-wrap: wrap;
+    font-size: 5px;
+    line-height: 5px;
+  }
+
+  .filter-list ul li {
+    font-size: 5px;
+    line-height: 5px;
+  }
+
+  .filter-list {
+    font-size: 5px;
+    line-height: 5px;
+  }
+}
+h1 {
+  font-family: "VarelaRound-Regular";
+  font-size: 30px;
+  font-weight: lighter;
+  color: grey;
+}
+
+h2 {
+  font-family: "VarelaRound-Regular";
+  font-size: 30px;
+  font-weight: lighter;
+  color: grey;
+}
+
+h3 {
+  font-family: "VarelaRound-Regular";
+  font-size: 10px;
+  font-weight: lighter;
+  color: grey;
+  text-align: center;
+}
+
+h1 {
+  color: grey;
+  font-family: "VarelaRound-Regular";
+}
+
+h2 {
+  color: grey;
+  font-family: "VarelaRound-Regular";
+}
+
+h3 {
+  color: grey;
+  font-family: "VarelaRound-Regular";
+}
+
+p {
+  color: black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  text-justify: distribute-all-lines;
+}
+
+li {
+  color: black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+
+/*# sourceMappingURL=style.css.map */

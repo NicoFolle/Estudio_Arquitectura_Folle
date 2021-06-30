@@ -1,0 +1,59 @@
+
+.error404 {
+    margin: 0;
+    padding: 0;
+
+    h1 {
+        text-align: center;
+        font-size: 100px;
+        margin: 0;
+        padding: 0; 
+    }
+
+    h2 {
+        text-align: center;
+    }
+}
+
+.img-container {
+        display: flex;
+
+        img {
+            position: relative;
+            left: 35%;
+        }
+        
+}
+
+.link-container {
+    display: flex;
+    justify-content: center;
+
+    p {
+        text-align: center;
+        font-family:'Times New Roman', Times, serif;
+        font-size: 20px;
+    }
+    
+    ul {
+        list-style: none;
+        li {
+            border: 0.5px solid black;
+            background-color: grey;
+            text-align: center;
+            padding: 1px 10px;
+
+            &:hover {
+                background-color: yellow;
+            }
+
+            a {
+                text-decoration: none;
+                color: black;
+            }
+        }
+    }
+    
+}
+
+

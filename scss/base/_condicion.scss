@@ -1,0 +1,35 @@
+
+
+@mixin condicion($colorIf) {
+    color: $colorIf;
+
+    @if $colorIf == grey {
+        font-family: 'VarelaRound-Regular';
+    } @else {
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        letter-spacing: 1px;
+        word-spacing: 2px;
+    }
+    
+}
+
+h1 {
+    @include condicion(grey);
+}
+
+h2 {
+    @include condicion(grey);
+}
+
+h3 {
+    @include condicion(grey);
+}
+
+p {
+    @include condicion(black);
+    text-justify: distribute-all-lines;
+}
+
+li {
+    @include condicion(black);
+}

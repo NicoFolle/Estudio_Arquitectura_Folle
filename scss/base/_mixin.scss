@@ -1,0 +1,21 @@
+
+
+@mixin encabezados($color, $size) {
+    font-family: 'VarelaRound-Regular';
+    font-size: $size;
+    font-weight: lighter;
+    color: $color;
+}
+
+h1 {
+    @include encabezados(grey, 30px );
+}
+
+h2 {
+    @include encabezados(grey, 30px);
+}
+
+h3 {
+    @include encabezados(grey, 10px );
+    text-align: center;
+}

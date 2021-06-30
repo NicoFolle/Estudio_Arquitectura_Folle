@@ -1,0 +1,99 @@
+@import '../base/listas';
+@import '../base/mapas';
+
+@font-face {
+    font-family: 'VarelaRound-Regular';
+    src: url('../../fonts/VarelaRound-Regular.ttf');
+
+    /* Al cargar el sitio, se muestra con fuentes por default, y cuando termina 
+    de cargar todo, ahi muestra la fuente que elegimos */
+    font-display: swap;
+}
+
+body {
+    padding-top: 128px;
+}
+
+.wspp-fixed {
+    position:fixed;
+    width: 60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    border-radius:32px;
+    z-index:100;
+}
+
+.list-icons {
+    ul {
+        list-style: none;
+        align-items: center;
+        li {
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: flex-end;
+            margin-left: 20px;
+            margin-top: 30px;
+        }
+    }
+}
+
+.icon-tel {
+    img {
+        background-image: map-get($maps, teléfono );
+        width: map-get($maps, width ); 
+        height: map-get($maps, height );
+        background-size: map-get($maps, background-size );
+        margin-right: map-get($maps, margin-right);
+    }
+}
+
+.icon-cel {
+    img {
+        background-image: map-get($maps, celular );
+        width: map-get($maps, width ); 
+        height: map-get($maps, height );
+        background-size: map-get($maps, background-size );
+        margin-right: map-get($maps, margin-right);
+    }
+}
+    
+.icon-email {
+    img {
+        background-image: map-get($maps, correo );
+        width: map-get($maps, width ); 
+        height: map-get($maps, height );
+        background-size: map-get($maps, background-size );
+        margin-right: map-get($maps, margin-right);
+    }
+}
+
+.icon-location {
+    img {
+        background-image: map-get($maps, ubicación );
+        width: map-get($maps, width ); 
+        height: map-get($maps, height );
+        background-size: map-get($maps, background-size );
+        margin-right: map-get($maps, margin-right);
+    }
+}
+
+nav {
+    ul {
+        li {
+            a{
+                font-family: 'VarelaRound-Regular';
+                color: nth($colores , 3 );
+                text-decoration: none;
+                font-size: nth($encabezados , 1 );
+                display: block;
+
+                &:hover {
+                    color: nth($colores , 1 );
+                }
+            }
+        }
+    } 
+} 
+
+ 

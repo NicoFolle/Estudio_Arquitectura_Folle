@@ -1,0 +1,48 @@
+
+
+.style-pres2 {
+    display: flex;
+    align-items: center;
+
+    img {
+        width: 500px;
+        height: 376px;
+        object-fit: cover;
+    }
+
+    h3 {
+        letter-spacing: 1px;
+        word-spacing: 2px;
+        line-height: 30px;
+        margin-left: 20px;
+        width: 700px;
+        text-align: center;
+    }
+
+    p {
+        font-size: 15px;
+        margin-left: 20px;
+        margin-right: 10px;
+    }
+}
+
+.services-style {
+    text-align: center;
+
+    p {
+        letter-spacing: 1px;
+        word-spacing: 2px;
+        line-height: 30px;
+        margin-left: 20px;
+        width: 700px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    iframe {
+        margin-bottom: 100px;
+        margin-top: 30px;
+        width: 700px;
+        height: 350px;
+    }
+}

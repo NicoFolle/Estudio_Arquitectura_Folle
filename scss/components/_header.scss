@@ -1,0 +1,19 @@
+
+
+header {
+    ul {
+        li {
+            a {
+                font-family: 'VarelaRound-Regular';
+                color: white;
+                text-decoration: none;
+                font-size: 15px;
+                display: block;
+
+                &:hover {
+                    color: rgb(190, 221, 76);
+                }
+            }
+        }
+    }
+}
