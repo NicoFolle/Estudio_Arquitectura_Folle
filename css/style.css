@@ -170,11 +170,6 @@ nav ul li a:hover {
 .team-banner {
   text-align: center;
 }
-.team-banner img {
-  width: 1000px;
-  height: 500px;
-  object-fit: cover;
-}
 
 .style-pres {
   display: flex;
@@ -182,9 +177,11 @@ nav ul li a:hover {
 }
 
 .team-descript {
-  width: 1000px;
   margin-right: auto;
   margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .team-descript img {
   width: 100px;
@@ -308,6 +305,48 @@ nav ul li a:hover {
   .estudio-banner img {
     width: 100%;
   }
+
+  .team-banner img {
+    width: 100%;
+  }
+
+  .team-descript {
+    width: 100%;
+  }
+  .team-descript .img {
+    width: 100%;
+  }
+  .team-descript .style-pres {
+    width: 100%;
+  }
+
+  .style-pres2 {
+    width: 100%;
+  }
+  .style-pres2 h3 {
+    width: 100%;
+    font-size: 12px;
+  }
+  .style-pres2 p {
+    width: 100%;
+    font-size: 10px;
+  }
+  .style-pres2 img {
+    width: 100%;
+    object-fit: contain;
+  }
+
+  .services-style {
+    width: 100%;
+  }
+  .services-style h1 {
+    width: 100%;
+    font-size: 20px;
+  }
+  .services-style p {
+    width: 100%;
+    font-size: 15px;
+  }
 }
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .grid-proyectos {
@@ -315,6 +354,9 @@ nav ul li a:hover {
     grid-template-rows: repeat(6, 1fr);
     justify-content: center;
     width: 100%;
+  }
+  .grid-proyectos li {
+    font-size: 8px;
   }
 
   .a2 img {
@@ -328,6 +370,67 @@ nav ul li a:hover {
 
   .estudio-banner img {
     width: 100%;
+  }
+
+  .team-banner img {
+    width: 100%;
+  }
+
+  .team-descript {
+    width: 100%;
+  }
+  .team-descript .img {
+    width: 100%;
+  }
+  .team-descript .style-pres {
+    width: 100%;
+  }
+  .team-descript .style-pres li {
+    font-size: 10px;
+  }
+
+  .style-pres2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .style-pres2 h3 {
+    width: 100%;
+    font-size: 12px;
+  }
+  .style-pres2 p {
+    width: 100%;
+    font-size: 10px;
+  }
+  .style-pres2 img {
+    width: 100%;
+    object-fit: contain;
+  }
+
+  .services-style {
+    width: 100%;
+  }
+  .services-style h1 {
+    width: 100%;
+    font-size: 15px;
+  }
+  .services-style p {
+    width: 100%;
+    font-size: 10px;
+  }
+  .services-style iframe {
+    width: 100%;
+  }
+
+  footer p {
+    font-size: 10px;
+  }
+
+  .wspp-fixed {
+    width: 50px;
+    height: 50px;
   }
 }
 @media screen and (min-width: 1025px) {
@@ -348,6 +451,20 @@ nav ul li a:hover {
   }
 
   .estudio-banner img {
+    width: 100%;
+  }
+
+  .team-banner img {
+    width: 100%;
+  }
+
+  .team-descript {
+    width: 100%;
+  }
+  .team-descript .img {
+    width: 100%;
+  }
+  .team-descript .style-pres {
     width: 100%;
   }
 }
@@ -382,6 +499,53 @@ nav ul li a:hover {
 
   .estudio-banner img {
     width: 100%;
+  }
+
+  .team-banner img {
+    width: 100%;
+  }
+
+  .team-descript {
+    width: 100%;
+  }
+  .team-descript .img {
+    width: 100%;
+  }
+  .team-descript .style-pres {
+    width: 100%;
+  }
+  .team-descript .style-pres li {
+    font-size: 8px;
+  }
+
+  .style-pres2 {
+    width: 100%;
+  }
+  .style-pres2 h3 {
+    width: 100%;
+  }
+  .style-pres2 p {
+    width: 100%;
+  }
+  .style-pres2 img {
+    width: 100%;
+  }
+
+  .services-style {
+    width: 100%;
+  }
+  .services-style h1 {
+    width: 100%;
+  }
+  .services-style p {
+    width: 100%;
+  }
+  .services-style iframe {
+    width: 100%;
+  }
+
+  footer p {
+    font-size: 10px;
   }
 }
 h1 {

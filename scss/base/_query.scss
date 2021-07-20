@@ -17,14 +17,56 @@
     .estudio-banner img {
         width: 100%;
     }
+    .team-banner img {
+        width: 100%;
+    }
+    .team-descript {
+        width: 100%;
+        .img {
+            width: 100%;
+        }
+        .style-pres {
+            width: 100%;
+        }
+    }
+    .style-pres2 {
+        width: 100%;
+        h3 {
+            width: 100%;
+            font-size: 12px;
+        }
+        p {
+            width: 100%;
+            font-size: 10px;
+        }
+        img {
+            width: 100%;
+            object-fit: contain;
+        }
+    }
+    .services-style {
+        width: 100%;
+        h1 {
+            width: 100%;
+            font-size: 20px;
+        }
+        p {
+            width: 100%;
+            font-size: 15px;
+        }
+    }
 }
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
+    
     .grid-proyectos {
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(6, 1fr);
         justify-content: center;
         width: 100%;
+        li {
+            font-size: 8px;
+        }
     }
     .a2 img {
         width: 100%;
@@ -35,6 +77,63 @@
     }
     .estudio-banner img {
         width:100%;
+    }
+    .team-banner img {
+        width: 100%;
+    }
+    .team-descript {
+        width: 100%;
+        .img {
+            width: 100%;
+        }
+        .style-pres {
+            width: 100%;
+            li {
+                font-size: 10px;
+            }
+        }
+    }
+    .style-pres2 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        h3 {
+            width: 100%;
+            font-size: 12px;
+        }
+        p {
+            width: 100%;
+            font-size: 10px;
+        }
+        img {
+            width: 100%;
+            object-fit: contain;
+        }
+    }
+    .services-style {
+        width: 100%;
+        h1 {
+            width: 100%;
+            font-size: 15px;
+        }
+        p {
+            width: 100%;
+            font-size: 10px;
+        }
+        iframe {
+            width: 100%;
+        }
+    }
+    footer {
+        p {
+            font-size: 10px;
+        }
+    }
+    .wspp-fixed {
+        width: 50px;
+        height: 50px;
     }
 }
 
@@ -54,6 +153,19 @@
     }
     .estudio-banner img {
         width: 100%;
+    }
+    .team-banner img {
+        width: 100%;
+    }
+    .team-descript {
+        width: 100%;
+        .img {
+            width: 100%;
+        }
+        .style-pres {
+            width: 100%;
+            
+        }
     }
 }
 
@@ -83,5 +195,49 @@
     }
     .estudio-banner img {
         width: 100%;
+    }
+    .team-banner img {
+        width: 100%;
+    }
+    .team-descript {
+        width: 100%;
+        .img {
+            width: 100%;
+        }
+        .style-pres {
+            width: 100%;
+            li {
+                font-size: 8px;
+            }
+        }
+    }
+    .style-pres2 {
+        width: 100%;
+        h3 {
+            width: 100%;
+        }
+        p {
+            width: 100%;
+        }
+        img {
+            width: 100%;
+        }
+    }
+    .services-style {
+        width: 100%;
+        h1 {
+            width: 100%;
+        }
+        p {
+            width: 100%;
+        }
+        iframe {
+            width: 100%;
+        }
+    }
+    footer {
+        p {
+            font-size: 10px;
+        }
     }
 }
