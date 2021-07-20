@@ -304,6 +304,10 @@ nav ul li a:hover {
   .filter-list ul {
     flex-wrap: wrap;
   }
+
+  .estudio-banner img {
+    width: fit-content;
+  }
 }
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .grid-proyectos {
@@ -321,6 +325,10 @@ nav ul li a:hover {
   .filter-list ul {
     flex-wrap: wrap;
   }
+
+  .estudio-banner img {
+    width: fit-content;
+  }
 }
 @media screen and (min-width: 1025px) {
   .grid-proyectos {
@@ -337,6 +345,10 @@ nav ul li a:hover {
 
   .filter-list ul {
     flex-wrap: wrap;
+  }
+
+  .estudio-banner img {
+    width: fit-content;
   }
 }
 @media screen and (max-width: 320px) {
@@ -366,6 +378,10 @@ nav ul li a:hover {
   .filter-list {
     font-size: 5px;
     line-height: 5px;
+  }
+
+  .estudio-banner img {
+    width: fit-content;
   }
 }
 h1 {
